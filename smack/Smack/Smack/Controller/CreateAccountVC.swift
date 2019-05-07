@@ -10,7 +10,6 @@ import UIKit
 
 class CreateAccountVC: UIViewController {
     
-    
     @IBOutlet weak var usernameTxt: UITextField!
     @IBOutlet weak var emailTxt: UITextField!
     @IBOutlet weak var passTxt: UITextField!
@@ -22,12 +21,12 @@ class CreateAccountVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
       
     }
     
-    
     @IBAction func pickAvatarPressed(_ sender: Any) {
+        
+        performSegue(withIdentifier: TO_AVATAR_PICKER, sender: nil)
     }
     
     
@@ -56,7 +55,6 @@ class CreateAccountVC: UIViewController {
             }
         }
     }
-    
     
     @IBAction func closePressed(_ sender: Any) {
         performSegue(withIdentifier: UNWIND, sender: nil)
