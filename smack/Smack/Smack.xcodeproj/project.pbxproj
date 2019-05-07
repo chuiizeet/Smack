@@ -11,6 +11,7 @@
 		8873D6ED2280D37B001FECC9 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8873D6EC2280D37B001FECC9 /* UserDataService.swift */; };
 		8873D6EF2280F5FE001FECC9 /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8873D6EE2280F5FE001FECC9 /* AvatarPickerVC.swift */; };
 		8873D6F122813E47001FECC9 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8873D6F022813E46001FECC9 /* AvatarCell.swift */; };
+		8873D6F32281EE81001FECC9 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8873D6F22281EE81001FECC9 /* CircleImage.swift */; };
 		887DF213227F806300B51269 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887DF212227F806300B51269 /* CreateAccountVC.swift */; };
 		887DF216227FBAE700B51269 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887DF215227FBAE700B51269 /* AuthService.swift */; };
 		88A3BB15227E4E1F000D2F46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A3BB14227E4E1F000D2F46 /* AppDelegate.swift */; };
@@ -32,6 +33,7 @@
 		8873D6EC2280D37B001FECC9 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		8873D6EE2280F5FE001FECC9 /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		8873D6F022813E46001FECC9 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
+		8873D6F22281EE81001FECC9 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		887DF212227F806300B51269 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		887DF215227FBAE700B51269 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		88A3BB11227E4E1F000D2F46 /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -154,6 +156,7 @@
 				88A3BB32227E9B77000D2F46 /* GradientView.swift */,
 				8873D6EA22809B6F001FECC9 /* RoundedButton.swift */,
 				8873D6F022813E46001FECC9 /* AvatarCell.swift */,
+				8873D6F22281EE81001FECC9 /* CircleImage.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				88A3BB31227E6455000D2F46 /* ChannelVC.swift in Sources */,
 				8873D6EF2280F5FE001FECC9 /* AvatarPickerVC.swift in Sources */,
 				8873D6EB22809B6F001FECC9 /* RoundedButton.swift in Sources */,
+				8873D6F32281EE81001FECC9 /* CircleImage.swift in Sources */,
 				88A3BB2F227E6445000D2F46 /* ChatVC.swift in Sources */,
 				8873D6ED2280D37B001FECC9 /* UserDataService.swift in Sources */,
 				887DF213227F806300B51269 /* CreateAccountVC.swift in Sources */,
@@ -461,7 +465,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C5BC5594CU;
+				DEVELOPMENT_TEAM = U6484T76QK;
 				INFOPLIST_FILE = Smack/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -484,7 +488,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C5BC5594CU;
+				DEVELOPMENT_TEAM = U6484T76QK;
 				INFOPLIST_FILE = Smack/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
