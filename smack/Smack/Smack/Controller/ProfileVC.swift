@@ -29,6 +29,7 @@ class ProfileVC: UIViewController {
     }
     
     @IBAction func closeModalPressed(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
     }
     
     func setupView() {

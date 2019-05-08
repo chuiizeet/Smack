@@ -256,6 +256,9 @@
                                 <state key="normal" title="Login">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="loginPressed:" destination="bOA-nF-wDi" eventType="touchUpInside" id="iVG-0d-fm7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="geo-cQ-euc">
                                 <rect key="frame" x="107.5" y="360" width="199" height="26"/>
@@ -267,6 +270,10 @@
                                     <action selector="createAccountBtnPressed:" destination="bOA-nF-wDi" eventType="touchUpInside" id="2GP-8V-pmJ"/>
                                 </connections>
                             </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="3yn-EV-UHS">
+                                <rect key="frame" x="188.5" y="426" width="37" height="37"/>
+                                <color key="color" red="0.25882352939999997" green="0.3294117647" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -274,16 +281,21 @@
                             <constraint firstItem="ijE-FR-Ei6" firstAttribute="top" secondItem="Xcm-H4-gi6" secondAttribute="top" id="Kzg-ej-TVw"/>
                             <constraint firstItem="ns3-ze-P5N" firstAttribute="top" secondItem="Fxh-eJ-Bco" secondAttribute="bottom" constant="40" id="MyW-rv-BUa"/>
                             <constraint firstItem="Fxh-eJ-Bco" firstAttribute="top" secondItem="Xcm-H4-gi6" secondAttribute="top" constant="60" id="ZFB-Vp-r6y"/>
+                            <constraint firstItem="3yn-EV-UHS" firstAttribute="top" secondItem="geo-cQ-euc" secondAttribute="bottom" constant="40" id="eO1-G8-dDt"/>
                             <constraint firstItem="geo-cQ-euc" firstAttribute="centerX" secondItem="VEI-CC-vyw" secondAttribute="centerX" id="fYO-SN-psh"/>
                             <constraint firstItem="ns3-ze-P5N" firstAttribute="centerX" secondItem="VEI-CC-vyw" secondAttribute="centerX" id="h1g-2E-vOm"/>
                             <constraint firstItem="YOS-gK-9w1" firstAttribute="centerX" secondItem="VEI-CC-vyw" secondAttribute="centerX" id="hkZ-ac-lVf"/>
                             <constraint firstItem="Fxh-eJ-Bco" firstAttribute="centerX" secondItem="VEI-CC-vyw" secondAttribute="centerX" id="ih1-Vq-Dqz"/>
                             <constraint firstItem="YOS-gK-9w1" firstAttribute="top" secondItem="ns3-ze-P5N" secondAttribute="bottom" constant="40" id="itY-Z1-1pe"/>
                             <constraint firstItem="geo-cQ-euc" firstAttribute="top" secondItem="YOS-gK-9w1" secondAttribute="bottom" id="oMb-79-ocx"/>
+                            <constraint firstItem="3yn-EV-UHS" firstAttribute="centerX" secondItem="VEI-CC-vyw" secondAttribute="centerX" id="wxc-Cs-IN2"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Xcm-H4-gi6"/>
                     </view>
                     <connections>
+                        <outlet property="passwordTxt" destination="ewX-dK-fFb" id="3TY-iw-jcR"/>
+                        <outlet property="spinner" destination="3yn-EV-UHS" id="Ta2-gZ-TBW"/>
+                        <outlet property="usernameTxt" destination="CNP-4f-H0C" id="hUA-7d-JHK"/>
                         <segue destination="jrd-U0-hlB" kind="show" identifier="toCreateAccount" id="kxA-HX-skR"/>
                     </connections>
                 </viewController>
