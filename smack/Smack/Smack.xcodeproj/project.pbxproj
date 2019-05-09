@@ -29,6 +29,8 @@
 		88BECBCD2283AF5F00BA242F /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BECBCC2283AF5F00BA242F /* MessageService.swift */; };
 		88BECBCF2283AFA000BA242F /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BECBCE2283AFA000BA242F /* Channel.swift */; };
 		88BECBD12283C0B000BA242F /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BECBD02283C0B000BA242F /* ChannelCell.swift */; };
+		88BECBD42283C74800BA242F /* AddChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BECBD22283C74800BA242F /* AddChannelVC.swift */; };
+		88BECBD52283C74800BA242F /* AddChannelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88BECBD32283C74800BA242F /* AddChannelVC.xib */; };
 		ED09F5E4D810DB0A3C1C9C1B /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A22DF1FB322A6F6A40DBBB /* Pods_Smack.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +62,8 @@
 		88BECBCC2283AF5F00BA242F /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
 		88BECBCE2283AFA000BA242F /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		88BECBD02283C0B000BA242F /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
+		88BECBD22283C74800BA242F /* AddChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChannelVC.swift; sourceTree = "<group>"; };
+		88BECBD32283C74800BA242F /* AddChannelVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddChannelVC.xib; sourceTree = "<group>"; };
 		F16BC2415E720B8096BD408E /* Pods-Smack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.release.xcconfig"; sourceTree = "<group>"; };
 		F9A22DF1FB322A6F6A40DBBB /* Pods_Smack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -97,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				8873D6F52282435B001FECC9 /* ProfileVC.xib */,
+				88BECBD32283C74800BA242F /* AddChannelVC.xib */,
 			);
 			path = XIBs;
 			sourceTree = "<group>";
@@ -167,6 +172,7 @@
 				887DF212227F806300B51269 /* CreateAccountVC.swift */,
 				8873D6EE2280F5FE001FECC9 /* AvatarPickerVC.swift */,
 				8873D6F42282435B001FECC9 /* ProfileVC.swift */,
+				88BECBD22283C74800BA242F /* AddChannelVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -260,6 +266,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88BECBD52283C74800BA242F /* AddChannelVC.xib in Resources */,
 				8873D6F72282435B001FECC9 /* ProfileVC.xib in Resources */,
 				88A3BB1F227E4E30000D2F46 /* LaunchScreen.storyboard in Resources */,
 				88A3BB1C227E4E30000D2F46 /* Assets.xcassets in Resources */,
@@ -340,6 +347,7 @@
 				887DF213227F806300B51269 /* CreateAccountVC.swift in Sources */,
 				887DF216227FBAE700B51269 /* AuthService.swift in Sources */,
 				88A3BB38227EB424000D2F46 /* LoginVC.swift in Sources */,
+				88BECBD42283C74800BA242F /* AddChannelVC.swift in Sources */,
 				88A3BB33227E9B77000D2F46 /* GradientView.swift in Sources */,
 				8873D6F122813E47001FECC9 /* AvatarCell.swift in Sources */,
 				88A3BB15227E4E1F000D2F46 /* AppDelegate.swift in Sources */,

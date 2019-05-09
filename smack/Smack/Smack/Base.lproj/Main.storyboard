@@ -151,6 +151,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aTX-57-SJi">
                                 <rect key="frame" x="320" y="112" width="22" height="22"/>
                                 <state key="normal" image="addChannelButton"/>
+                                <connections>
+                                    <action selector="addChannelPressed:" destination="uqI-5f-p4V" eventType="touchUpInside" id="Vgi-HC-Rhk"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

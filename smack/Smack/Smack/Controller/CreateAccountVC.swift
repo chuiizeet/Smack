@@ -86,6 +86,8 @@ class CreateAccountVC: UIViewController {
         performSegue(withIdentifier: UNWIND, sender: nil)
     }
     
+    
+    
     func setupView() {
         spinner.isHidden = true
         usernameTxt.attributedPlaceholder = NSAttributedString(string: "username", attributes: [NSAttributedString.Key.foregroundColor: smackPurplePlaceholder])
