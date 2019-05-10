@@ -33,6 +33,7 @@
 		88BECBD42283C74800BA242F /* AddChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BECBD22283C74800BA242F /* AddChannelVC.swift */; };
 		88BECBD52283C74800BA242F /* AddChannelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88BECBD32283C74800BA242F /* AddChannelVC.xib */; };
 		88BECBD72283E59F00BA242F /* SocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BECBD62283E59F00BA242F /* SocketService.swift */; };
+		88E8D27C2285F3A300D162A9 /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E8D27B2285F3A300D162A9 /* KeyboardBoundView.swift */; };
 		ED09F5E4D810DB0A3C1C9C1B /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A22DF1FB322A6F6A40DBBB /* Pods_Smack.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +69,7 @@
 		88BECBD22283C74800BA242F /* AddChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChannelVC.swift; sourceTree = "<group>"; };
 		88BECBD32283C74800BA242F /* AddChannelVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddChannelVC.xib; sourceTree = "<group>"; };
 		88BECBD62283E59F00BA242F /* SocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketService.swift; sourceTree = "<group>"; };
+		88E8D27B2285F3A300D162A9 /* KeyboardBoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardBoundView.swift; sourceTree = "<group>"; };
 		F16BC2415E720B8096BD408E /* Pods-Smack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.release.xcconfig"; sourceTree = "<group>"; };
 		F9A22DF1FB322A6F6A40DBBB /* Pods_Smack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -185,6 +187,7 @@
 		88A3BB2C227E640D000D2F46 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				88E8D27B2285F3A300D162A9 /* KeyboardBoundView.swift */,
 				88A3BB32227E9B77000D2F46 /* GradientView.swift */,
 				8873D6EA22809B6F001FECC9 /* RoundedButton.swift */,
 				8873D6F022813E46001FECC9 /* AvatarCell.swift */,
@@ -340,6 +343,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88E8D27C2285F3A300D162A9 /* KeyboardBoundView.swift in Sources */,
 				88BECBD72283E59F00BA242F /* SocketService.swift in Sources */,
 				8873D6F62282435B001FECC9 /* ProfileVC.swift in Sources */,
 				88BECBD12283C0B000BA242F /* ChannelCell.swift in Sources */,
