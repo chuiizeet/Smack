@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8870475D22853905007EDB4B /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8870475C22853905007EDB4B /* Message.swift */; };
 		8873D6EB22809B6F001FECC9 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8873D6EA22809B6F001FECC9 /* RoundedButton.swift */; };
 		8873D6ED2280D37B001FECC9 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8873D6EC2280D37B001FECC9 /* UserDataService.swift */; };
 		8873D6EF2280F5FE001FECC9 /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8873D6EE2280F5FE001FECC9 /* AvatarPickerVC.swift */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		4743277EDCAA56BFCDB52F62 /* Pods-Smack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.debug.xcconfig"; sourceTree = "<group>"; };
+		8870475C22853905007EDB4B /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		8873D6EA22809B6F001FECC9 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		8873D6EC2280D37B001FECC9 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		8873D6EE2280F5FE001FECC9 /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
@@ -196,6 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				88BECBCE2283AFA000BA242F /* Channel.swift */,
+				8870475C22853905007EDB4B /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 				88A3BB31227E6455000D2F46 /* ChannelVC.swift in Sources */,
 				8873D6EF2280F5FE001FECC9 /* AvatarPickerVC.swift in Sources */,
 				8873D6EB22809B6F001FECC9 /* RoundedButton.swift in Sources */,
+				8870475D22853905007EDB4B /* Message.swift in Sources */,
 				88BECBCF2283AFA000BA242F /* Channel.swift in Sources */,
 				8873D6F32281EE81001FECC9 /* CircleImage.swift in Sources */,
 				88BECBCD2283AF5F00BA242F /* MessageService.swift in Sources */,
