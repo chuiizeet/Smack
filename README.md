@@ -1,5 +1,3 @@
-# Smack
-
 ## Pods:
 - Alamofire
 - SwiftyJSON
@@ -8,3 +6,7 @@
 ## Utils
 - [Robo T3](https://robomongo.org/)
 - [Postman](https://www.getpostman.com/)
+
+## Screenshots
+
+![screenshot](https://raw.githubusercontent.com/chuiizeet/Smack/master/screenshots/chat.png) ![screenshot](https://raw.githubusercontent.com/chuiizeet/Smack/master/screenshots/profile.png)
